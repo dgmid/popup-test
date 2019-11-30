@@ -1,0 +1,19 @@
+{
+ "name": "popup-test",
+ "version": "1.0.0",
+ "productName": "Popup Test",
+ "description": "Electron 7x popup menu test",
+ "main": "main.js",
+ "scripts": {
+  "start": "electron .",
+  "package": "npm prune -production; electron-packager . --asar=true --electron-version=7.1.2 --overwrite --platform=darwin --arch=x64 --prune=false --out=build --darwinDarkModeSupport=true;"
+ },
+ "author": {
+  "name": "D.G. Midwinter",
+  "email": "duncan@midwinter-dg.com",
+  "url": "https://www.midwinter-dg.com"
+ },
+ "devDependencies": {
+  "electron": "^7.1.2"
+ }
+}

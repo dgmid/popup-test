@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>popup test</title>
+		
+		<style>
+			html, body {
+				
+				position: relative;
+				width: 100%;
+				height: 100%;
+				padding: 0;
+				margin: 0;
+			}
+			div {
+				
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				padding: 20px;
+			}
+			h1, p {
+				
+				color: white;
+				position: relative;
+				z-index: 1;
+			}
+		</style>
+		
+	</head>
+
+	<body>
+		<div>
+			<h1>menu.popup() test</h1>
+			<p>keep clicking — sooner or later it will crash :(</p>
+		<div>
+	</body>
+	
+	<script>
+		require( './app' )
+	</script>
+</html>
