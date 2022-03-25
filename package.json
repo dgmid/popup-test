@@ -14,6 +14,6 @@
   "url": "https://www.midwinter-dg.com"
  },
  "devDependencies": {
-  "electron": "^7.1.2"
+  "electron": "^13.6.6"
  }
 }
